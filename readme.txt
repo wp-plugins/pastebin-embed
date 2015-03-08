@@ -5,15 +5,15 @@ Contributors: ramiy
 Tags: pastebin, embed, snippets, paste, bin, code
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Embed pastes from pastebin.com
 
 == Description ==
 
-[Pastebin.com](http://www.pastebin.com) allows you to store pieces of sources code, configuration information or any other text.
+[Pastebin.com](http://www.pastebin.com) is a an online web service where you can store text for a certain period of time. The website is mainly used by programmers to store pieces of sources code or configuration information, but anyone is more than welcome to paste any type of text. The idea behind the site is to make it more convenient for people to share large amounts of text online.
 
-Using this plugin you can embed content from pastebin to your WordPress post/page using nothing but a URL. Just copy the paste URL from [pastebin.com](http://www.pastebin.com) and paste it to your post.
+Using "Pastebin Embed" WordPress plugin you can embed pastes from pastebin to your WordPress site using nothing but a URL. Just copy the URL from [pastebin.com](http://www.pastebin.com) and paste it to your post.
 
 == Installation ==
 
@@ -36,7 +36,16 @@ Using this plugin you can embed content from pastebin to your WordPress post/pag
 * PHP version 5.4 or greater.
 * MySQL version 5.5 or greater.
 
+== Screenshots ==
+1. Pasting the URL to the text editor.
+2. Pasting the URL to the visual editor.
+
 == Changelog ==
+
+= 1.1 =
+* Add i18n support.
+* Add hebrew (he_IL) traslation.
+* Add screenshots.
 
 = 1.0 =
 * Initial release.

@@ -2,9 +2,11 @@
 /*
 Plugin Name: Pastebin Embed
 Description: Embed pastes from pastebin.com
-Version: 1.0
+Version: 1.1
 Author: Rami Yushuvaev
 Author URI: http://GenerateWP.com/
+Text Domain: pastebin-embed
+Domain Path: /languages
 License: GPL2+
 */
 
