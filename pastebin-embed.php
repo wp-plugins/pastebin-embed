@@ -2,7 +2,7 @@
 /*
 Plugin Name: Pastebin Embed
 Description: Embed pastes from pastebin.com
-Version: 1.1
+Version: 1.2
 Author: Rami Yushuvaev
 Author URI: http://GenerateWP.com/
 Text Domain: pastebin-embed
@@ -10,10 +10,16 @@ Domain Path: /languages
 License: GPL2+
 */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 function pastebin_embed_handler( $matches, $attr, $url, $rawattr ) {
 
+	$scheme = is_ssl() ? 'https' : 'http';
+
 	$embed = sprintf(
-		'<script src="http://pastebin.com/embed_js.php?i=%1$s"></script>',
+		'<script src="' . $scheme . '://pastebin.com/embed_js.php?i=%1$s"></script>',
 		esc_attr( $matches[1] )
 	);
 

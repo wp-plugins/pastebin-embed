@@ -5,7 +5,7 @@ Contributors: ramiy
 Tags: pastebin, embed, snippets, paste, bin, code
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 Embed pastes from pastebin.com
 
@@ -42,10 +42,15 @@ Using "Pastebin Embed" WordPress plugin you can embed pastes from pastebin to yo
 
 == Changelog ==
 
-= 1.1 =
+= 1.2 (2015-03-26) =
+* Check for SSL (http/https), suggested by James Collins
+* Prevent direct access to directories
+* Prevent direct access to php file
+
+= 1.1 (2015-03-08) =
 * Add i18n support.
 * Add hebrew (he_IL) traslation.
 * Add screenshots.
 
-= 1.0 =
+= 1.0 (2015-03-06) =
 * Initial release.
