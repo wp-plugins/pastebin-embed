@@ -1,19 +1,19 @@
 === Pastebin Embed ===
-Author: Rami Yushuvaev
-Author URI: http://GenerateWP.com/
 Contributors: ramiy
 Tags: pastebin, embed, snippets, paste, bin, code
 Requires at least: 3.5
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: 1.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Embed pastes from pastebin.com
+Embed pastes from pastebin.com into your WordPress site
 
 == Description ==
 
 [Pastebin.com](http://www.pastebin.com) is a an online web service where you can store text for a certain period of time. The website is mainly used by programmers to store pieces of sources code or configuration information, but anyone is more than welcome to paste any type of text. The idea behind the site is to make it more convenient for people to share large amounts of text online.
 
-Using "Pastebin Embed" WordPress plugin you can embed pastes from pastebin to your WordPress site using nothing but a URL. Just copy the URL from [pastebin.com](http://www.pastebin.com) and paste it to your post.
+Using "Pastebin Embed" WordPress plugin you can embed pastes from pastebin to your WordPress site using nothing but the URL. Just copy the URL from [pastebin.com](http://www.pastebin.com) and paste it to your post text editor. Then simply click over to the visual editor to confirm that it loads properly.
 
 == Installation ==
 
@@ -36,6 +36,13 @@ Using "Pastebin Embed" WordPress plugin you can embed pastes from pastebin to yo
 * PHP version 5.4 or greater.
 * MySQL version 5.5 or greater.
 
+== Frequently Asked Questions ==
+
+= How do I embed pastes from Pastebin? =
+
+With this plugin you can use the URL to embed pastes. Just paste the URL into your post editor:
+`http://pastebin.com/hcv2WRnX`
+
 == Screenshots ==
 1. Pasting the URL to the text editor.
 2. Pasting the URL to the visual editor.
@@ -54,3 +61,4 @@ Using "Pastebin Embed" WordPress plugin you can embed pastes from pastebin to yo
 
 = 1.0 (2015-03-06) =
 * Initial release.
+* Register embed handler.
