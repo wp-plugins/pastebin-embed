@@ -1,19 +1,29 @@
 <?php
 /*
 Plugin Name: Pastebin Embed
-Description: Embed pastes from pastebin.com
-Version: 1.2
-Author: Rami Yushuvaev
-Author URI: http://GenerateWP.com/
+Plugin URI:  https://wordpress.org/plugins/pastebin-embed/
+Description: Embed pastes from pastebin.com into your WordPress site
+Version:     1.2
+Author:      Rami Yushuvaev
+Author URI:  http://GenerateWP.com/
 Text Domain: pastebin-embed
 Domain Path: /languages
-License: GPL2+
 */
 
+
+
+/*
+ * Prevent direct access to the file
+ */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+
+
+/*
+ * Register embed handler
+ */
 function pastebin_embed_handler( $matches, $attr, $url, $rawattr ) {
 
 	$scheme = is_ssl() ? 'https' : 'http';
